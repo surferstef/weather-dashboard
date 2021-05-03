@@ -1,0 +1,46 @@
+
+.hero {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+
+
+.btn-block.searchText{
+    background-color:white;
+    border-color: black;
+    font-weight: bold;
+}
+
+.btn-block.searchBar{
+    background-color: rgb(98, 208, 252);
+    border-color: black;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+.btn-block.searchBar:hover {
+    background-color: rgb(182, 241, 133);
+}
+
+.btn-block {
+    background-color: rgb(170, 184, 182);
+    border-color: white;
+    margin-bottom: 10px;
+}
+
+.btn-block:hover {
+    background-color: rgb(182, 241, 133);
+}
+
+.weatherContent {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+
+}

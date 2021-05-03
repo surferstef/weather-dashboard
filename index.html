@@ -1,0 +1,112 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./Assets/style.css" />
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+ 
+  <div class="row no-gutters">
+    <header class="col-12 col-lg-3 bg-light text-dark d-flex flex-column p-4 p-lg-1">
+      <h1 class="text-center">Search For A City:</h1>
+      <div id="locationDiv" class="hidden">
+        <div id="searchForLocation">
+            <input type="text" id="locationSearchBar" class="btn btn-block searchText" placeholder="Search by City Name">
+            <button class="btn btn-block searchBar">Search</button>
+        </div>
+        <div id="locationSelector">
+            <button id="chooseLocation" class="btn btn-block" data-toggle="modal" data-target="#task-form-modal">Austin</button>
+        </div>
+        <div id="locationSelector">
+            <button id="chooseLocation" class="btn btn-block" data-toggle="modal" data-target="#task-form-modal">Chicago</button>
+        </div>
+        <div id="locationSelector">
+            <button id="chooseLocation" class="btn btn-block" data-toggle="modal" data-target="#task-form-modal">New York</button>
+        </div>
+        <div id="locationSelector">
+            <button id="chooseLocation" class="btn btn-block" data-toggle="modal" data-target="#task-form-modal">Orlando</button>
+        </div>
+        <div id="locationSelector">
+            <button id="chooseLocation" class="btn btn-block" data-toggle="modal" data-target="#task-form-modal">San Francisco</button>
+        </div>
+        <div id="locationSelector">
+            <button id="chooseLocation" class="btn btn-block" data-toggle="modal" data-target="#task-form-modal">Seattle</button>
+        </div>
+        <div id="locationSelector">
+            <button id="chooseLocation" class="btn btn-block" data-toggle="modal" data-target="#task-form-modal">Denver</button>
+        </div>
+        <div id="locationSelector">
+            <button id="chooseLocation" class="btn btn-block" data-toggle="modal" data-target="#task-form-modal">Atlanta</button>
+        </div>
+    </header>
+
+    <div class="col">
+        <div class="hero">
+        <h1 class="display-4 text-dark d-flex flex-column">Weather Dashboard</h1>
+        </div>
+        <div class="weatherContent col-lg-10">
+            <div id="weatherToday" class="col-12 weather-block border border-dark">
+                <h1>Today's Weather</h1>
+                    <ul>Temp:</ul>
+                    <ul>Wind:</ul>
+                    <ul>Humidity:</ul>
+                    <ul>UV Index:</ul>
+        
+                </div>
+        </div> 
+   </div>
+   <main class="flex-row justify-space-between">
+    <div class="col-12 col-md-4"></div>
+  
+    <div class="col-12 col-md-8"></div>
+  </main>
+
+  
+</div>
+
+
+
+
+  <!-- Modal -->
+   <!-- <div class="modal fade" id="task-form-modal" tabindex="-1" role="dialog" aria-labelledby="task-form-modal"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="task-form-modal">Add New Task</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="modalTaskDescription">Task description</label>
+              <textarea id="modalTaskDescription" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="modalDueDate">Due date</label>
+              <input type="text" id="modalDueDate" placeholder="mm/dd/yyyy" autocomplete="off" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save Task</button>
+        </div>
+      </div>
+    </div>
+  </div>-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>
